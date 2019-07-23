@@ -5,3 +5,4 @@
 __author__ = """{{ cookiecutter.full_name }}"""
 __email__ = '{{ cookiecutter.email }}'
 __version__ = '{{ cookiecutter.version }}'
+__version_info__ = tuple(int(n) for n in __version__.split('.'))
