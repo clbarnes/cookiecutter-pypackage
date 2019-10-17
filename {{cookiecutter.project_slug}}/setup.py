@@ -30,7 +30,7 @@ extras_require["all"] = itertools.chain.from_iterable(extras_require.values())
 } %}
 
 setup(
-    author="{{ cookiecutter.full_name.replace('\"'', '\\\"') }}",
+    author="{{ cookiecutter.full_name.replace('\"', '\\\"') }}",
     author_email="{{ cookiecutter.email }}",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
